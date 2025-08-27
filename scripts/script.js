@@ -41,7 +41,7 @@ getElement('service-box').addEventListener('click', function (e) {
     if (coinCountDecrease >= 0) {
       alert(`Calling ${subTitle} ${serviceNumber}...`);
     } else {
-      alert('আপনার পর্যাপ্ত কয়েন নেই! কল করতে কমপক্ষে ২০ কয়েন লাগবে ।');
+      alert('আপনার পর্যাপ্ত কয়েন নেই কল করতে কমপক্ষে ২০ কয়েন লাগবে ।');
       return;
     }
 
